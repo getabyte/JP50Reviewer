@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Widget Color -->
+        <color name="color_widget_default_button_hide_pronunciation_background">#33AAAAAA</color>
+        <color name="color_widget_default_button_hide_pronunciation_text">#111111</color>
+        <color name="color_widget_default_button_toggle_star_background">#33AAAAAA</color>
+        <color name="color_widget_default_button_toggle_star_text">#111111</color>
+        <color name="color_widget_default_button_next_character_text">#111111</color>
+        <!-- Default Theme -->
+        <color name="color_widget_default_background">#33222222</color>
+        <color name="color_widget_default_textView_text">#000000</color>
+        <color name="color_widget_default_button_next_character_background">#33A8D08D</color>
+        <!-- Theme 1-->
+        <color name="color_widget_theme1_background">#33FAFAD2</color>
+        <color name="color_widget_theme1_textView_text">#000000</color>
+        <color name="color_widget_theme1_button_next_character_background">#66FAFAD2</color>
+        <!-- Theme 2 -->
+        <color name="color_widget_theme2_background">#33F0F8FF</color>
+        <color name="color_widget_theme2_textView_text">#000000</color>
+        <color name="color_widget_theme2_button_next_character_background">#66F0F8FF</color>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/string_character_array_first_element"
+            android:textColor="@color/color_widget_default_textView_text"
+            android:background="@color/color_widget_default_background"
+            android:id="@+id/settings_color_dialog_button_default_theme"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/string_character_array_first_element"
+            android:textColor="@color/color_widget_theme1_textView_text"
+            android:background="@color/color_widget_theme1_background"
+            android:id="@+id/settings_color_dialog_button_theme1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/string_character_array_first_element"
+            android:textColor="@color/color_widget_theme2_textView_text"
+            android:background="@color/color_widget_theme2_background"
+            android:id="@+id/settings_color_dialog_button_theme2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

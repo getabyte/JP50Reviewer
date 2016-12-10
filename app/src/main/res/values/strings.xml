@@ -1,0 +1,246 @@
+<resources>
+    <!-- Main Activity String -->
+    <string name="app_name">五十音小工具</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="main_text">簡單的日文五十音複習小工具，如有遇到問題或有其他意見，可以用旁邊的按鈕寄信給我，或是填在Play商店的評論欄裡也可以。\n右上角可以設定小工具。\n</string>
+    <string name="main_text_current_stared_character">現在的星號字：\n</string>
+    <!-- E-mail String-->
+    <string name="email_my_email_address">getabyte1432@gmail.com</string>
+    <string name="email_subject">我有一些建議…</string>
+    <string name="email_hint">您寶貴的意見</string>
+    <string name="email_application_choosing">您想要用那一個程式寄E-Mail呢？</string>
+    <string name="email_there_is_no_email_application_dialog_title">這個嘛……</string>
+    <string name="email_there_is_no_email_application_dialog_message">沒有在您的手機上發現可以用來寄E-Mail的程式，您可以先安裝一個，或是將意見寫在Play商店的評論欄</string>
+    <string name="email_there_is_not_email_application_dialog_ok">好</string>
+    <!-- Settings String -->
+    <string name="settings_string_show_star_only">只顯示星號字</string>
+    <string name="settings_string_hide_pronunciation">擋住發音提示</string>
+    <string name="settings_string_color_select">主題</string>
+    <string name="settings_confirm">好</string>
+    <string name="settings_cancel">取消</string>
+        <!-- Show Star Only -->
+        <string name="settings_no_stared_warning_title">這個嘛……</string>
+        <string name="settings_no_stared_warning_message">你現在還沒有將任何字打上星號，請先使用桌面小工具的星形按鈕設定</string>
+        <string name="settings_no_stared_warning_button">好</string>
+        <!-- Color Select Dialog -->
+        <string name="settings_string_color_select_dialog_title">選擇主題</string>
+        <string name="settings_string_color_select_checked">✓</string>
+        <string name="key_int_current_theme_index">key_int_current_theme_index</string>
+
+    <!-- App Widget String -->
+        <!-- Action String-->
+        <string name="action_next_character">heart.david.MyWidgetProvider.ACTION_NEXT_CHARACTER</string>
+        <string name="action_toggle_star">heart.david.MyWidgetProvider.ACTION_TOGGLE_STAR</string>
+        <string name="action_hide_pronunciation">heart.david.MyWidgetProvider.ACTION_HIDE_PRONUNCIATION</string>
+        <!-- Shared Preference String-->
+        <string name="key_boolean_show_star_only">key_boolean_show_star_only</string>
+        <string name="key_int_stared_character_count">key_int_stared_character_count</string>
+        <string name="key_boolean_hide_pronunciation_first">key_boolean_hide_pronunciation_first</string>
+        <string name="key_String_stared_character">key_String_stared_character</string>
+        <string name="default_value_String_stared_character">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</string>
+        <string name="key_int_current_character_index">key_int_current_character_index</string>
+        <string name="default_value_String_all_character_selected_count">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</string>
+        <string name="key_String_all_character_selected_count">key_String_all_character_selected_count</string>
+        <!-- Button String -->
+        <string name="string_hide_pronunciation">...</string>
+        <string name="string_next_character">＞</string>
+        <!-- Character String -->
+        <string name="string_character_array_first_element">あ</string>
+        <string-array name="string_character_array">
+            <item>@string/string_character_array_first_element</item>
+            <item>い</item>
+            <item>う</item>
+            <item>え</item>
+            <item>お</item>
+            <item>か</item>
+            <item>き</item>
+            <item>く</item>
+            <item>け</item>
+            <item>こ</item>
+            <item>さ</item>
+            <item>し</item>
+            <item>す</item>
+            <item>せ</item>
+            <item>そ</item>
+            <item>た</item>
+            <item>ち</item>
+            <item>つ</item>
+            <item>て</item>
+            <item>と</item>
+            <item>な</item>
+            <item>に</item>
+            <item>ぬ</item>
+            <item>ね</item>
+            <item>の</item>
+            <item>は</item>
+            <item>ひ</item>
+            <item>ふ</item>
+            <item>へ</item>
+            <item>ほ</item>
+            <item>ま</item>
+            <item>み</item>
+            <item>む</item>
+            <item>め</item>
+            <item>も</item>
+            <item>や</item>
+            <item>ゆ</item>
+            <item>よ</item>
+            <item>ら</item>
+            <item>り</item>
+            <item>る</item>
+            <item>れ</item>
+            <item>ろ</item>
+            <item>わ</item>
+            <item>を</item>
+            <item>ん</item>
+            <item>ア</item>
+            <item>イ</item>
+            <item>ウ</item>
+            <item>エ</item>
+            <item>オ</item>
+            <item>カ</item>
+            <item>キ</item>
+            <item>ク</item>
+            <item>ケ</item>
+            <item>コ</item>
+            <item>サ</item>
+            <item>シ</item>
+            <item>ス</item>
+            <item>セ</item>
+            <item>ソ</item>
+            <item>タ</item>
+            <item>チ</item>
+            <item>ツ</item>
+            <item>テ</item>
+            <item>ト</item>
+            <item>ナ</item>
+            <item>ニ</item>
+            <item>ヌ</item>
+            <item>ネ</item>
+            <item>ノ</item>
+            <item>ハ</item>
+            <item>ヒ</item>
+            <item>フ</item>
+            <item>ヘ</item>
+            <item>ホ</item>
+            <item>マ</item>
+            <item>ミ</item>
+            <item>ム</item>
+            <item>メ</item>
+            <item>モ</item>
+            <item>ヤ</item>
+            <item>ユ</item>
+            <item>ヨ</item>
+            <item>ラ</item>
+            <item>リ</item>
+            <item>ル</item>
+            <item>レ</item>
+            <item>ロ</item>
+            <item>ワ</item>
+            <item>ヲ</item>
+            <item>ン</item>
+        </string-array>
+        <string name="string_pronunciation_array_first_element">a</string>
+        <string-array name="string_pronunciation_array">
+            <item>@string/string_pronunciation_array_first_element</item>
+            <item>i</item>
+            <item>u</item>
+            <item>e</item>
+            <item>o</item>
+            <item>ka</item>
+            <item>ki</item>
+            <item>ku</item>
+            <item>ke</item>
+            <item>ko</item>
+            <item>sa</item>
+            <item>shi</item>
+            <item>su</item>
+            <item>se</item>
+            <item>so</item>
+            <item>ta</item>
+            <item>chi</item>
+            <item>tsu</item>
+            <item>te</item>
+            <item>to</item>
+            <item>na</item>
+            <item>ni</item>
+            <item>nu</item>
+            <item>ne</item>
+            <item>no</item>
+            <item>ha</item>
+            <item>hi</item>
+            <item>fu</item>
+            <item>he</item>
+            <item>ho</item>
+            <item>ma</item>
+            <item>mi</item>
+            <item>mu</item>
+            <item>me</item>
+            <item>mo</item>
+            <item>ya</item>
+            <item>yu</item>
+            <item>yo</item>
+            <item>ra</item>
+            <item>ri</item>
+            <item>ru</item>
+            <item>re</item>
+            <item>ro</item>
+            <item>wa</item>
+            <item>o</item>
+            <item>n</item>
+            <item>a</item>
+            <item>i</item>
+            <item>u</item>
+            <item>e</item>
+            <item>o</item>
+            <item>ka</item>
+            <item>ki</item>
+            <item>ku</item>
+            <item>ke</item>
+            <item>ko</item>
+            <item>sa</item>
+            <item>shi</item>
+            <item>su</item>
+            <item>se</item>
+            <item>so</item>
+            <item>ta</item>
+            <item>chi</item>
+            <item>tsu</item>
+            <item>te</item>
+            <item>to</item>
+            <item>na</item>
+            <item>ni</item>
+            <item>nu</item>
+            <item>ne</item>
+            <item>no</item>
+            <item>ha</item>
+            <item>hi</item>
+            <item>fu</item>
+            <item>he</item>
+            <item>ho</item>
+            <item>ma</item>
+            <item>mi</item>
+            <item>mu</item>
+            <item>me</item>
+            <item>mo</item>
+            <item>ya</item>
+            <item>yu</item>
+            <item>yo</item>
+            <item>ra</item>
+            <item>ri</item>
+            <item>ru</item>
+            <item>re</item>
+            <item>ro</item>
+            <item>wa</item>
+            <item>o</item>
+            <item>n</item>
+        </string-array>
+        <string name="string_star_array_first_element">☆</string>
+        <string-array name="string_star_array">
+            <item>@string/string_star_array_first_element</item>
+            <item>★</item>
+        </string-array>
+        <!-- Message String -->
+        <string name="message_auto_set_show_star_only_to_false">因為沒有星號字可以顯示了，所以改成顯示全部的字</string>
+        <string name="message_this_is_the_only_one_stared_character">星號字只有這一個！</string>
+</resources>
