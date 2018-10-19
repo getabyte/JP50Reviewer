@@ -1,0 +1,4 @@
+#Fri Oct 19 15:50:22 CST 2018
+base.0=D\:\\JP50Reviewer_v3\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
