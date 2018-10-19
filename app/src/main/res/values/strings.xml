@@ -2,25 +2,25 @@
     <!-- Main Activity String -->
     <string name="app_name">五十音小工具</string>
     <string name="title_activity_settings">設定</string>
-    <string name="main_text">簡單的日文五十音複習小工具，如有遇到問題或有其他意見，可以用旁邊的按鈕寄信給我，或是填在Play商店的評論欄裡也可以。\n右上角可以設定小工具。\n</string>
-    <string name="main_text_current_stared_character">現在的星號字：\n</string>
+    <string name="main_text">這是一個日文五十音的學習小工具，在您的手機的小工具裡，現在有一個「五十音小工具」，將其放到手機的桌面上，就可以開始使用了。\n右上角的「\u22EE」可以設定小工具。\n如有遇到問題或有任何想法，可以寄信給我，或是填在Play商店的評論欄裡。\n</string>
+    <string name="main_text_current_stared_character">目前的重點單字：\n</string>
     <!-- E-mail String-->
     <string name="email_my_email_address">getabyte1432@gmail.com</string>
-    <string name="email_subject">我有一些建議…</string>
+    <string name="email_subject">我有一些關於五十音小工具的建議…</string>
     <string name="email_hint">您寶貴的意見</string>
     <string name="email_application_choosing">您想要用那一個程式寄E-Mail呢？</string>
     <string name="email_there_is_no_email_application_dialog_title">這個嘛……</string>
-    <string name="email_there_is_no_email_application_dialog_message">沒有在您的手機上發現可以用來寄E-Mail的程式，您可以先安裝一個，或是將意見寫在Play商店的評論欄</string>
+    <string name="email_there_is_no_email_application_dialog_message">沒有在您的手機上發現可以用來寄E-Mail的程式，您必須先安裝一個。</string>
     <string name="email_there_is_not_email_application_dialog_ok">好</string>
     <!-- Settings String -->
-    <string name="settings_string_show_star_only">只顯示星號字</string>
+    <string name="settings_string_show_star_only">只顯示重點單字</string>
     <string name="settings_string_hide_pronunciation">擋住發音提示</string>
     <string name="settings_string_color_select">主題</string>
     <string name="settings_confirm">好</string>
     <string name="settings_cancel">取消</string>
         <!-- Show Star Only -->
         <string name="settings_no_stared_warning_title">這個嘛……</string>
-        <string name="settings_no_stared_warning_message">你現在還沒有將任何字打上星號，請先使用桌面小工具的星形按鈕設定</string>
+        <string name="settings_no_stared_warning_message">因為您現在沒有標記任何單字為重點單字，所以無法開啟此功能。\n請先使用小工具上的星形按鈕標記至少一個單字後，再開啟此功能。</string>
         <string name="settings_no_stared_warning_button">好</string>
         <!-- Color Select Dialog -->
         <string name="settings_string_color_select_dialog_title">選擇主題</string>
@@ -241,6 +241,6 @@
             <item>★</item>
         </string-array>
         <!-- Message String -->
-        <string name="message_auto_set_show_star_only_to_false">因為沒有星號字可以顯示了，所以改成顯示全部的字</string>
-        <string name="message_this_is_the_only_one_stared_character">星號字只有這一個！</string>
+        <string name="message_auto_set_show_star_only_to_false">因為沒有重點單字可以顯示了，所以改成顯示全部的字。</string>
+        <string name="message_this_is_the_only_one_stared_character">目前的重點單字只有這一個！</string>
 </resources>

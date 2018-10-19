@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    // TODO: 2017/1/16 What about English Version?
     MainActivity myself;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
